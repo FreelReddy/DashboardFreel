@@ -1,4 +1,22 @@
 import React from 'react';
+import SideBar from './sidebar';
+
+import './App.css';
+
+export default function App() {
+  
+  return (
+    <div id="App">
+      <SideBar />
+      <div id="page-wrap">
+      </div>
+    </div>
+  );
+}
+
+
+/*
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -24,3 +42,4 @@ function App() {
 }
 
 export default App;
+*/
